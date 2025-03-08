@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: rgb(9, 10, 50);
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+
+}
+nav .memu{
+    max-width: 1250px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .memu .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;   
+}
+nav .memu ul{
+    display: flex;
+}
+nav .memu ul li{
+    list-style-type: none;
+    margin-left: 20px;    
+}
+    nav .memu ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+        font weight: bold;
+    }
+    nav .memu ul li a:hover{
+        background: #fff;
+        color: rgb(24, 19, 56);
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+        .bgcosing{
+            background:url(./../images/bgcoding.jpg) no-repeat center; ;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            
+        }
+        .info-center{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .title{
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .sub-title{
+            color: #563f7c;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .info-btn{
+            margin-top: 20px;
+        }
+        .info-btn-L{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            background: transparent;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .info-btn-L:hover{
+            background: #fff;
+            color: #1b163a;
+        }
+        .info-btn-R:hover{
+            background: transparent;
+            color: #ebeaf0;
+        }
+        .info-btn-R{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            background:#fff;
+            color: #1b163a;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
