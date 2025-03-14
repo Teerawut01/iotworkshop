@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(./../images/coffee_bg.jpg) no-repeat center center/cover; }
+
+nav{
+    width: 100%;
+    padding: 10px 0;
+    position: fixed; }    
+
+nav .memu{
+    max-width: 1250px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .memu .logo{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;   
+}
+nav .memu .logo .l-left{
+    color: rgb(235, 239, 243);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;   
+}
+nav .memu .logo .l-left:hover{
+    color: rgb(231, 70, 7);
+}
+nav .memu .logo .l-right{
+    color: rgb(231, 70, 7);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;   
+}
+nav .memu .logo .l-right:hover{
+    color: rgb(235, 239, 243);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 30px;
+}
+nav ul li a{
+    color: rgb(235, 239, 243);
+    text-decoration: none;
+    font-size: 18px;
+    font weight: 700;
+    padding:86px 15px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    color: rgb(231, 70, 7);
+    border: 2px solid rgb(231, 70, 7);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    max-width: 1250px;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+}   
+.title{
+    font-size: 40px;
+    color:#ffffff ;
+    font-weight: bold;
+}
+.title span{
+    color: rgb(231, 70, 7);
+}
+.sub-title{
+    width: 45%;
+    font-size: 20px;
+    color: rgb(235, 239, 243);
+    margin-top: 20px;
+    font-weight: 400;
+}
+.btn-order{
+    max-width: max-content;
+    font-size: 20px;
+    color: rgb(12, 5, 0);
+    background-color: seashell;
+    margin-top: 20px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-order:hover{
+    background-color: rgb(231, 70, 7);
+    color: #fff;
+
+}
